@@ -16,5 +16,5 @@ console.log(`Your name is ${username}`)
 let username1;
 document.getElementById("mySubmit").onclick = function(){
     username1 = document.getElementById("myText").value;
-    console.log(username1);
+    document.getElementById("Slogan").textContent = `Hello ${username1}`;
 }

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  margin: 0;
+  height: 100vh; /* chiều cao toàn màn hình */
+  display: flex;
+  flex-direction: column; /* để h1 và contain xếp theo cột */
+  justify-content: center; /* canh giữa theo chiều dọc */
+  align-items: center;     /* canh giữa theo chiều ngang */
+}
+
+.contain {
+  display: flex;
+  gap: 10px; /* khoảng cách giữa các button */
+}
+
+.contain button {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    
+    cursor: pointer;
+}
